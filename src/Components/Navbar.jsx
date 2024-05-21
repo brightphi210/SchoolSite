@@ -1,12 +1,20 @@
 import React from 'react'
+import logo from '../Images/logo.png'
 
 const Navbar = () => {
   return (
     <div>
         <div>
-            <h2 className='text-4xl text-yellow-500'>Logo</h2>
+            <img src={logo} alt="" width={100}/>
         </div>
-        <div></div>
+
+
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Gallery</li>
+        </ul>
     </div>
   )
 }
