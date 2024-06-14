@@ -104,27 +104,27 @@ const SectionOne = () => {
             <div>
                 <h2 className='text-center text-3xl py-10'>Gallery</h2>
 
-                <div className='grid grid-cols-2 gap-10'>
-                    <div className='bg-black rounded-2xl'>
+                <div className='grid 2xl:grid-cols-2 grid-cols-1 gap-10'>
+                    <div className='bg-black 2xl:rounded-2xl rounded-xl'>
                         <img src={a} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
                     </div>
 
-                    <div className='bg-black rounded-2xl'>
+                    <div className='bg-black 2xl:rounded-2xl rounded-xl'>
                         <img src={b} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
                     </div>
 
 
-                    <div className='bg-black rounded-2xl'>
+                    <div className='bg-black 2xl:rounded-2xl rounded-xl'>
                         <img src={c} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
                     </div>
 
 
-                    <div className='bg-black rounded-2xl'>
+                    <div className='bg-black 2xl:rounded-2xl rounded-xl'>
                         <img src={d} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
                     </div>
 
 
-                    <div className='bg-black rounded-2xl'>
+                    <div className='bg-black 2xl:rounded-2xl rounded-xl'>
                         <img src={e} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
                     </div>
                 </div>
@@ -139,18 +139,18 @@ const SectionOne = () => {
                 <p className='text-center text-white py-3'>Here are some statistics about our School.</p>
                 
 
-                <div className='flex gap-28 text-white justify-center pt-10'>
-                    <div className = "flex gap-5 items-center">
-                        <p className="text-7xl "><GrCertificate /></p>
+                <div className='2xl:flex 2xl:flex-row flex flex-col 2xl:gap-28 gap-10 text-white justify-center pt-10'>
+                    <div className = "2xl:flex gap-5 text-center">
+                        <p className="text-7xl text-center 2xl:block flex justify-center"><GrCertificate /></p>
                         
-                        <div>
-                            <h2 className='text-3xl font-bold'>50</h2>
+                        <div className='text-center'>
+                            <h2 className='text-3xl  font-bold'>50</h2>
                             <p>Certified Teacher</p>
                         </div>
                     </div>
 
-                    <div className = "flex gap-5 items-center">
-                        <p className="text-7xl "><IoSchoolSharp /></p>
+                    <div className = "2xl:flex gap-5 text-center">
+                        <p className="text-7xl text-center 2xl:block flex justify-center "><IoSchoolSharp /></p>
                         
                         <div>
                             <h2 className='text-3xl font-bold'>4</h2>
@@ -159,8 +159,8 @@ const SectionOne = () => {
                     </div>
 
 
-                    <div className = "flex gap-5 items-center">
-                        <p className="text-7xl "><BsCalendar2DateFill/></p>
+                    <div className = "2xl:flex gap-5 text-center">
+                        <p className="text-7xl text-center 2xl:block flex justify-center "><BsCalendar2DateFill/></p>
                         
                         <div>
                             <h2 className='text-3xl font-bold'>50</h2>
@@ -169,8 +169,8 @@ const SectionOne = () => {
                     </div>
 
 
-                    <div className = "flex gap-5 items-center">
-                        <p className="text-7xl "><FaUserGraduate /></p>
+                    <div className = "2xl:flex gap-5 text-center">
+                        <p className="text-7xl text-center 2xl:block flex justify-center"><FaUserGraduate /></p>
                         
                         <div>
                             <h2 className='text-3xl font-bold'>10</h2>
@@ -186,7 +186,7 @@ const SectionOne = () => {
 
 
 
-            <div className='py-10 px-[16rem]'>
+            <div className='2xl:py-10 2xl:px-[16rem] px-5'>
                 <h2 className='text-center text-3xl py-10'>News and events</h2>
 
                 <>
