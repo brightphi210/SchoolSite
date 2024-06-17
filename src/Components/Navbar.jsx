@@ -20,8 +20,15 @@ const Navbar = () => {
           <Link to={'/about'}>
             <li className='cursor-pointer text-sm 2xl:text-lg font-semibold'>About</li>
           </Link>
-          <li className='cursor-pointer text-sm 2xl:text-lg font-semibold'>Gallery</li>
-          <li className='cursor-pointer text-sm 2xl:text-lg font-semibold'>Events</li>
+
+          <Link to={'/gallery'}>
+            <li className='cursor-pointer text-sm 2xl:text-lg font-semibold'>Gallery</li>
+          </Link>
+
+
+          <Link to={'/events'}>
+              <li className='cursor-pointer text-sm 2xl:text-lg font-semibold'>Events</li>
+          </Link>
         </ul>
 
     </div>
