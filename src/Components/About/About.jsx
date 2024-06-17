@@ -13,7 +13,7 @@ const About = () => {
             </div>
 
             <div className='2xl:px-[20rem] xl:px-[10rem] lg:px-[10rem] px-5'>
-                <p className='2xl:text-xl text-sm text-justify 2xl:pt-20 pt-5 leading-loose'>
+                <p className='2xl:text-xl text-lg text-justify 2xl:pt-20 pt-10 leading-loose'>
                     Overseas High School is a nursery and primary school that prides itself on 
                     offering superior, application-based education. Its mission is to produce 
                     top-performing ‘smart’ students – students who are knowledgeable, innovative, 
@@ -23,10 +23,10 @@ const About = () => {
             </div>
 
 
-            <div className='2xl:px-[20rem] xl:px-[10rem] lg:px-[10rem] px-5 text-black mt-10 rounded-lg 2xl:p-20' data-aos="fade-up" data-aos-duration="1000">
+            <div className='2xl:px-[20rem] xl:px-[10rem] lg:px-[10rem] pb-20 px-5 text-black mt-10 rounded-lg 2xl:p-20' data-aos="fade-up" data-aos-duration="1000">
                 <h2 className='2xl:text-4xl xl:text-2xl lg:text-2xl text-xl'>Our Vision & Mission Statement</h2>
                 <div>
-                    <p className='2xl:text-xl text-sm text-justify pt-5 leading-loose'>
+                    <p className='2xl:text-xl text-lg  text-justify pt-5 leading-loose'>
                         Our vision at OHS is to be ranked among the top ten schools in Nigeria. 
                         Therefore, we strive to set a high academic standard for all levels of 
                         education. Our students are trained to develop the intellectual capacity, 
