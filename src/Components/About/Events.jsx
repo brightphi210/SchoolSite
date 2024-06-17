@@ -34,7 +34,7 @@ const Events = () => {
 
             <div className='bg-neutral-100 rounded-lg' >
                 <div className='w-full rounded-lg'>
-                    <img src={a} alt="" className='rounded-lg'/>
+                    <img src={d} alt="" className='rounded-lg'/>
                 </div>
 
                 <div className='p-5 text-black'>
@@ -46,7 +46,7 @@ const Events = () => {
 
             <div className='bg-neutral-100 rounded-lg' >
                 <div className='w-full rounded-lg'>
-                    <img src={a} alt="" className='rounded-lg'/>
+                    <img src={b} alt="" className='rounded-lg'/>
                 </div>
 
                 <div className='p-5 text-black'>
@@ -58,7 +58,7 @@ const Events = () => {
 
             <div className='bg-neutral-100 rounded-lg' >
                 <div className='w-full rounded-lg'>
-                    <img src={a} alt="" className='rounded-lg'/>
+                    <img src={c} alt="" className='rounded-lg'/>
                 </div>
 
                 <div className='p-5 text-black'>
