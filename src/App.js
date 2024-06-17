@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import About from './Components/About/About';
 AOS.init();
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<HomePage />} />
+          <Route path='/about' element={<About />} />
         </Routes>
       </BrowserRouter>
       

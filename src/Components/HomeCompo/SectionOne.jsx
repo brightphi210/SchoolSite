@@ -20,6 +20,7 @@ import { GrCertificate } from "react-icons/gr";
 import { IoSchoolSharp } from "react-icons/io5";
 import { FaUserGraduate } from "react-icons/fa6";
 import { BsCalendar2DateFill } from "react-icons/bs";
+import Footer from '../Footer';
 
 const SectionOne = () => {
   return (
@@ -284,42 +285,9 @@ const SectionOne = () => {
 
             </div>
 
+            <Footer />  
         </div>
-
-
-        <div className='flex 2xl:flex-row xl:px-[10rem] lg:px-[10rem] flex-col  2xl:px-[16rem] px-5 gap-[5rem] p-20 bg-black text-white'>
-            <div className='w-full'>
-                <h2 className='pb-10'>About Us</h2>
-                <p>
-                    Overseas High School is a nursery and primary school that prides itself on 
-                    offering superior, application-based education. Its mission is to produce 
-                    top-performing ‘smart’ students – students who are knowledgeable, innovative, 
-                    forward thinking and morally sound. At OHS, we do not just educate students, 
-                    we mold them to become tomorrow’s pacesetters.
-                </p>
-            </div>
-
-
-            <div className='w-full'>
-                <h2 className='pb-10'>POPULAR LINKS</h2>
-                <p>About</p>
-                <p>Gallery</p>
-                <p>Services</p>
-            </div>
-
-
-            <div className='w-full'>
-                <h2 className='pb-10'>Contact Us</h2>
-                <p>
-                    Lagos: 8/10, Olawole Daodu Street, Ifako-Gbagada.
-                    Ogun: Km 42, Lagos-Ibadan Expressway Opposite Deeper Life Conference Centre, Ogunrun-Ori.
-                </p>
-                <p>
-                +234 909 663 0728, +234 906 292 3912, +234 811 393 2810.
-                </p>
-                <p>info@emeraldschools.com</p>
-            </div>
-        </div>
+        
     </div>
   )
 }
