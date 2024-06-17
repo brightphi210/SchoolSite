@@ -16,28 +16,28 @@ const Gallery = () => {
             <h2 className='text-4xl pb-5 border-b w-fit border-b-orange-400'>Gallery</h2> 
         </div>
 
-        <div className='grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-10 py-20 2xl:px-[16rem] xl:px-[10rem] lg:px-[10rem]'>
+        <div className='grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-10 py-20 2xl:px-[16rem] xl:px-[10rem] lg:px-[10rem] px-5'>
                     <div className='bg-black 2xl:rounded-2xl rounded-xl' data-aos="fade-up" data-aos-duration="1000">
-                        <img src={a} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
+                        <img src={a} alt="" className='rounded-xl hover:opacity-85 cursor-pointer'/>
                     </div>
 
                     <div className='bg-black 2xl:rounded-2xl rounded-xl' data-aos="fade-up" data-aos-duration="1000">
-                        <img src={b} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
-                    </div>
-
-
-                    <div className='bg-black 2xl:rounded-2xl rounded-xl' data-aos="fade-up" data-aos-duration="1000">
-                        <img src={c} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
+                        <img src={b} alt="" className='rounded-xl hover:opacity-85 cursor-pointer'/>
                     </div>
 
 
                     <div className='bg-black 2xl:rounded-2xl rounded-xl' data-aos="fade-up" data-aos-duration="1000">
-                        <img src={d} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
+                        <img src={c} alt="" className='rounded-xl hover:opacity-85 cursor-pointer'/>
                     </div>
 
 
                     <div className='bg-black 2xl:rounded-2xl rounded-xl' data-aos="fade-up" data-aos-duration="1000">
-                        <img src={e} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
+                        <img src={d} alt="" className='rounded-xl hover:opacity-85 cursor-pointer'/>
+                    </div>
+
+
+                    <div className='bg-black 2xl:rounded-2xl rounded-xl' data-aos="fade-up" data-aos-duration="1000">
+                        <img src={e} alt="" className='rounded-xl hover:opacity-85 cursor-pointer'/>
                     </div>
                 </div>
         <Footer />
