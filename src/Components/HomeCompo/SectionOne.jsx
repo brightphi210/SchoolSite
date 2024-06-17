@@ -27,7 +27,7 @@ const SectionOne = () => {
     <div>
         <div className='myBg'>
             <div className='isolate flex justify-center items-center h-full'>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <h2 className='2xl:text-7xl xl:text-3xl lg:text-3xl text-3xl text-center text-white font-bold'>We are Commited <br /> to  Excellence</h2>
                     <p className='text-white font-medium text-center 2xl:text-2xl xl:text-lg lg:text-lg py-5'>We commited to raising champions  and <br /> excellent students globally</p>
                     <div className='2xl:flex flex justify-center items-center mt-3 gap-4'>
@@ -44,7 +44,7 @@ const SectionOne = () => {
         
 
 
-        <div className='bg-neutral-50 text-black mt-10 rounded-lg 2xl:p-20 xl:px-10 lg:px-10 px-5'>
+        <div className='bg-neutral-50 text-black mt-10 rounded-lg 2xl:p-20 xl:px-10 lg:px-10 px-5' data-aos="fade-up" data-aos-duration="1000">
                 <h2 className='2xl:text-4xl xl:text-2xl lg:text-2xl text-xl'>Our Vision & Mission Statement</h2>
                 <div>
                     <p className='2xl:text-xl text-sm text-justify pt-5 leading-loose'>
@@ -59,8 +59,8 @@ const SectionOne = () => {
             </div>
 
 
-            <div>
-                <div className='2xl:flex 2xl:flex-row flex-col items-center gap-10 pt-20'>
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <div className='flex 2xl:flex-row xl:flex-row lg:flex-row flex-col items-center gap-10 pt-20'>
                     <div className='w-full rounded-2xl'>
                         <img src={imgs} alt="" className='w-full rounded-2xl'/>
                     </div>
@@ -87,7 +87,7 @@ const SectionOne = () => {
                 </div>
             </div>
 
-            <div className='bg-black text-white my-10 rounded-lg 2xl:p-20 p-5'>
+            <div className='bg-black text-white my-10 rounded-lg 2xl:p-20 p-5' data-aos="fade-up" data-aos-duration="1000">
                 <h2 className='text-4xl text-yellow-400 border-b border-yellow-500 w-fit pb-3'>About</h2>
                 <div>
                     <p className='2xl:text-xl text-sm text-justify pt-5 leading-loose'>
@@ -101,30 +101,30 @@ const SectionOne = () => {
             </div>
 
 
-            <div>
+            <div >
                 <h2 className='text-center text-3xl py-10'>Gallery</h2>
 
-                <div className='grid 2xl:grid-cols-2 grid-cols-1 gap-10'>
-                    <div className='bg-black 2xl:rounded-2xl rounded-xl'>
+                <div className='grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-10'>
+                    <div className='bg-black 2xl:rounded-2xl rounded-xl' data-aos="fade-up" data-aos-duration="1000">
                         <img src={a} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
                     </div>
 
-                    <div className='bg-black 2xl:rounded-2xl rounded-xl'>
+                    <div className='bg-black 2xl:rounded-2xl rounded-xl' data-aos="fade-up" data-aos-duration="1000">
                         <img src={b} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
                     </div>
 
 
-                    <div className='bg-black 2xl:rounded-2xl rounded-xl'>
+                    <div className='bg-black 2xl:rounded-2xl rounded-xl' data-aos="fade-up" data-aos-duration="1000">
                         <img src={c} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
                     </div>
 
 
-                    <div className='bg-black 2xl:rounded-2xl rounded-xl'>
+                    <div className='bg-black 2xl:rounded-2xl rounded-xl' data-aos="fade-up" data-aos-duration="1000">
                         <img src={d} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
                     </div>
 
 
-                    <div className='bg-black 2xl:rounded-2xl rounded-xl'>
+                    <div className='bg-black 2xl:rounded-2xl rounded-xl' data-aos="fade-up" data-aos-duration="1000">
                         <img src={e} alt="" className='rounded-2xl hover:opacity-85 cursor-pointer'/>
                     </div>
                 </div>
@@ -134,12 +134,11 @@ const SectionOne = () => {
 
         <div>
 
-            <div className='bg-yellow-500 p-10 mt-20 '>
+            <div className='bg-yellow-500 p-10 mt-20' >
                 <h2 className='text-center text-3xl text-white'>Our School</h2>
                 <p className='text-center text-white py-3'>Here are some statistics about our School.</p>
                 
-
-                <div className='2xl:flex 2xl:flex-row flex flex-col 2xl:gap-28 gap-10 text-white justify-center pt-10'>
+                <div className='flex 2xl:flex-row xl:flex-row lg:flex-row flex-col 2xl:gap-28 gap-10 text-white justify-center pt-10' data-aos="fade-up" data-aos-duration="1000">
                     <div className = "2xl:flex gap-5 text-center">
                         <p className="text-7xl text-center 2xl:block flex justify-center"><GrCertificate /></p>
                         
@@ -178,13 +177,7 @@ const SectionOne = () => {
                         </div>
                     </div>
                 </div>
-
-
-                
-
             </div>
-
-
 
             <div className='2xl:py-10 2xl:px-[16rem] px-5'>
                 <h2 className='text-center text-3xl py-10'>News and events</h2>
@@ -214,7 +207,7 @@ const SectionOne = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div className='bg-neutral-100 rounded-lg'>
+                        <div className='bg-neutral-100 rounded-lg' >
                             <div className='w-full rounded-lg'>
                                 <img src={a} alt="" className='rounded-lg'/>
                             </div>
@@ -291,6 +284,41 @@ const SectionOne = () => {
 
             </div>
 
+        </div>
+
+
+        <div className='flex 2xl:flex-row xl:px-[10rem] lg:px-[10rem] flex-col  2xl:px-[16rem] px-5 gap-[5rem] p-20 bg-black text-white'>
+            <div className='w-full'>
+                <h2 className='pb-10'>About Us</h2>
+                <p>
+                    Overseas High School is a nursery and primary school that prides itself on 
+                    offering superior, application-based education. Its mission is to produce 
+                    top-performing ‘smart’ students – students who are knowledgeable, innovative, 
+                    forward thinking and morally sound. At OHS, we do not just educate students, 
+                    we mold them to become tomorrow’s pacesetters.
+                </p>
+            </div>
+
+
+            <div className='w-full'>
+                <h2 className='pb-10'>POPULAR LINKS</h2>
+                <p>About</p>
+                <p>Gallery</p>
+                <p>Services</p>
+            </div>
+
+
+            <div className='w-full'>
+                <h2 className='pb-10'>Contact Us</h2>
+                <p>
+                    Lagos: 8/10, Olawole Daodu Street, Ifako-Gbagada.
+                    Ogun: Km 42, Lagos-Ibadan Expressway Opposite Deeper Life Conference Centre, Ogunrun-Ori.
+                </p>
+                <p>
+                +234 909 663 0728, +234 906 292 3912, +234 811 393 2810.
+                </p>
+                <p>info@emeraldschools.com</p>
+            </div>
         </div>
     </div>
   )
